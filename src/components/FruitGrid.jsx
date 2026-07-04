@@ -30,7 +30,6 @@ function FruitGrid({ cardValue }) {
   useEffect(() => {
     if (moves === 10) {
       alert("Game Over");
-  
       setTimeout(() => {
         initializeGame();
       }, 1000);
@@ -56,7 +55,7 @@ function FruitGrid({ cardValue }) {
   // useEffect(() => {
   useEffect(() => {
     initializeGame();
-  }, [ ]);
+  }, []);
 
   const handleClickCard = (card) => {
     if (card.isFlipped || card.isMatched) {
