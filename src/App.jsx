@@ -1,4 +1,4 @@
-import FruitGrid from './components/Fruitgrid.jsx';
+import FruitGrid from './components/FruitGrid';
 import './index.css'
 function App() {
   const cardValues = [
